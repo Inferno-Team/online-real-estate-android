@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        tools:layout="@layout/home_fragment"
+        android:name="com.inferno.mobile.bedon_waseet.ui.home.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+
+            android:id="@+id/action_nav_home_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+    </fragment>
+
+    <fragment
+        tools:layout="@layout/login_fragment"
+        android:id="@+id/loginFragment"
+        android:name="com.inferno.mobile.bedon_waseet.ui.login.LoginFragment"
+        android:label="LoginFragment" />
+    <fragment
+        tools:layout="@layout/signup_fragment"
+        android:id="@+id/signUpFragment"
+        android:name="com.inferno.mobile.bedon_waseet.ui.signup.SignUpFragment"
+        android:label="SignUpFragment" />
+    <fragment
+        tools:layout="@layout/settings_layout"
+        android:id="@+id/nav_settings"
+        android:name="com.inferno.mobile.bedon_waseet.ui.settings.SettingsFragment"
+        android:label="SettingsFragment" />
+</navigation>

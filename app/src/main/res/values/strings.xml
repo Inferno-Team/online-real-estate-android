@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">بدون وسيط</string>
+    <string name="file_path">%1$s/360.mp4</string>
+    <string name="home">Home</string>
+    <string name="map">Map</string>
+    <string name="settings">Settings</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoibW9oYW1tZWRpc3NhIiwiYSI6ImNrd2NnajFvaDEycGkydXFsdmRxaW1wNm4ifQ.9isSyfCXqGrAN2-AjM46hA</string>
+    <string name="my_real_estate">My Real Estate</string>
+</resources>
